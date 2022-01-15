@@ -3658,7 +3658,7 @@ textarea.input-lg {
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.42857143;
     text-align: center;
     white-space: nowrap;
@@ -4202,6 +4202,7 @@ fieldset[disabled] .btn-link:hover {
 .btn-lg {
     padding: 10px 16px;
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.3333333;
     border-radius: 6px
 }
