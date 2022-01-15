@@ -195,7 +195,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel button:hover,
@@ -511,26 +511,6 @@ button {
   box-shadow: none;
 }
 
-.scrollToTop {
-  width: 40px;
-  height: 40px;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  opacity: 0;
-  z-index: 500;
-  transition: all 0.3s ease-in-out;
-}
-
-.scrollToTop span {
-  margin-top: 6px;
-}
-
-.showScrollTop {
-  font-size: 14px;
-  opacity: 1;
-}
-
 a[data-lightbox] {
   position: relative;
   display: block;
@@ -542,6 +522,7 @@ a[data-lightbox]:hover::before {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
   font-size: 32px;
+  line-height: 150%;
   width: 50px;
   height: 50px;
   margin-left: -25px;
@@ -651,9 +632,7 @@ p,
 label,
 .btn,
 a {
-  font-family: "Helvetica";
-  font-weight: 400;
-  color: #1d1d1d !important;
+  color: #000000 !important;
 }
 
 h1 {
@@ -671,6 +650,9 @@ h3 {
   font-weight: 700 !important;
   text-transform: uppercase;
   color: #333333 !important;
+  text-decoration: underline;
+  text-decoration-color: #b74c31;
+  text-underline-position: under;
 }
 
 h4 {
@@ -683,7 +665,7 @@ p {
 }
 
 q {
-  font-size: 16px;
+  font-size: 18px;
   font-style: italic;
 }
 
@@ -738,10 +720,6 @@ q {
 .icons {
   margin-bottom: 14px;
   margin-top: 24px;
-}
-
-.white {
-  color: #ffffff !important;
 }
 
 .portfolio-thumb {
