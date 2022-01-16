@@ -648,6 +648,7 @@ h2 {
 h3 {
   font-size: 16px !important;
   font-weight: 700 !important;
+  line-height: 2.2rem !important;
   text-transform: uppercase;
   color: #333333 !important;
   text-decoration: underline;
