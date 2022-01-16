@@ -573,6 +573,16 @@ q {
   box-shadow: 0px 0px 0px #000000;
 }
 
+.social-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  max-width: 400px;
+  margin: auto;
+}
+
 .icons {
   margin-bottom: 14px;
   margin-top: 24px;
@@ -813,19 +823,6 @@ q {
   }
   form {
     padding: 5px;
-  }
-  .close-lightbox {
-    display: inline-block;
-  }
-  .blocsapp-device-iphone5 {
-    background-size: 216px 425px;
-    padding-top: 60px;
-    width: 216px;
-    height: 425px;
-  }
-  .blocsapp-device-iphone5 img {
-    width: 180px;
-    height: 320px;
   }
 }
 
