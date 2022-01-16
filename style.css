@@ -18,15 +18,6 @@ a:hover {
   cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #ffffff no-repeat center center;
-}
-
 .bloc {
   width: 100%;
   clear: both;
@@ -448,10 +439,6 @@ nav .caret {
   margin: 0 5px 5px 0;
 }
 
-.btn.pull-right {
-  margin: 0 0 5px 5px;
-}
-
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
@@ -566,20 +553,6 @@ q {
   font-size: 38px;
 }
 
-.hero-bloc-text-sub {
-  font-size: 36px;
-}
-
-.statement-bloc-text {
-  line-height: 26px;
-  font-style: italic;
-  font-size: 20px;
-  text-align: center;
-  font-weight: lighter;
-  max-width: 520px;
-  margin: auto auto auto auto;
-}
-
 .tight-width-whitespace {
   max-width: 600px;
   margin: auto auto auto auto;
@@ -594,17 +567,11 @@ q {
   font-weight: 700 !important;
 }
 
-.social {
-  max-width: 400px;
-  margin: auto auto auto auto;
-}
-
 .med-width-whitespace {
   max-width: 800px;
   margin: auto auto auto auto;
   box-shadow: 0px 0px 0px #000000;
 }
-
 
 .icons {
   margin-bottom: 14px;
@@ -620,18 +587,9 @@ q {
   margin-top: 50px;
 }
 
-.avatar {
-  box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
-}
-
 .black-background {
   background-color: rgba(75, 66, 43, 0.85);
   padding: 40px 40px 40px 40px;
-}
-
-.bold-link {
-  font-weight: 900;
-  text-decoration: underline !important;
 }
 
 .bgc-white {
@@ -658,22 +616,6 @@ q {
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
   color: #ffffff !important;
-}
-
-.ltc-white {
-  color: #ffffff !important;
-}
-
-.ltc-white:hover {
-  color: #cccccc !important;
-}
-
-.ltc-atomic-tangerine {
-  color: #f3976c !important;
-}
-
-.ltc-atomic-tangerine:hover {
-  color: #c27956 !important;
 }
 
 .icon-dark-slate-blue {
@@ -781,10 +723,7 @@ q {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     float: none !important;
   }
-  .navbar.row {
-    margin-left: 0;
-    margin-right: 0;
-  }
+
   .site-navigation {
     position: inherit;
     transform: none;
@@ -816,13 +755,7 @@ q {
   #hero-bloc .navbar .nav a {
     color: rgba(255, 255, 255, 0.6);
   }
-  .hero {
-    padding: 50px 0;
-  }
-  .hero-nav {
-    left: -1px;
-    right: -1px;
-  }
+
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
