@@ -15,8 +15,12 @@ button {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
   cursor: pointer;
+}
+
+a:focus {
+  text-decoration: none !important;
 }
 
 .bloc {
@@ -538,6 +542,10 @@ h4 {
   color: #333333 !important;
 }
 
+.h5 {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
 p {
   font-size: 16px !;
 }
@@ -575,9 +583,15 @@ q {
   box-shadow: 0px 0px 0px #000000;
 }
 
-.social-flex {
+.social-flexv {
   display: flex;
   justify-content: center;
+}
+
+.social-flexc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .social {
