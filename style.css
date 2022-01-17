@@ -744,6 +744,12 @@ q {
   .b-parallax {
     background-attachment: scroll;
   }
+
+  .navbar-header {
+    width: 90%;
+    margin: auto;
+  }
+
   .navbar .nav {
     padding-top: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -840,6 +846,26 @@ q {
   form {
     padding: 5px;
   }
+
+  #bloc-2-services {
+    width: 80%;
+    margin: auto;
+  }
+
+  .portfolio-row {
+    width: 80%;
+  }
+
+  .btn-md {
+    width: 60%;
+  }
+
+  .text-center {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }
 
 @media (max-width: 400px) {
